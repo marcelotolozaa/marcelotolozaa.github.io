@@ -1,0 +1,105 @@
+        /* ESTILOS DEL INDEX  */
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: #f8f9fa;
+    background-image: url(https://as01.epimg.net/mexico/imagenes/2022/08/06/reportajes/1659755377_894842_1660291127_noticiareportajes_grande.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cover {
+    padding-top: 10%;
+}
+p {
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-style: italic;
+    font-size: large;
+}
+#img-fluid{
+    margin: 20px auto; 
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.container {
+    text-align: center;
+}
+        /* ESTILOS DEL LOGIN  */
+
+h4 {
+    font-style: italic;
+    font-size: large;
+    color: crimson;
+}
+.formulario {
+    text-align: center;
+    color: black;
+    margin-top: 10%;
+    font-style: italic;
+  
+}
+
+.amg {
+    background-image: url(https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    top: 50%;
+    background-position:center;
+    width: 100%;
+    height: 100px;
+}
+ 
+a{
+    text-decoration: none;
+    color: #272727;
+    
+}
+
+header{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    background: linear-gradient(110deg,#1f3b72, #9ed3ff );
+    align-items:center;
+    padding: 6px;
+    position: fixed;
+    width: 100%;
+    top:0;
+}
+
+.logo {
+    margin-bottom: 20px;
+    display:flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 20px;
+
+}
+
+nav a{
+    font-weight: 500;
+    padding-right: 40px;
+
+}
+
+nav a:hover{
+    color:white;
+
+}

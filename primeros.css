@@ -1,0 +1,178 @@
+html {
+    font-family: 'Vollkorn', serif;
+}
+body {
+    background: #093053;
+    background-repeat: no-repeat;
+    color: white;
+
+}
+
+.flex-container{
+    margin: 0 auto;
+    width: 95%;
+    display: flex;
+    padding: 0;
+    background: transparent;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.caja {
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 300px;
+    height: 500px;
+    line-height: 30px;
+    /* text-align: center; */
+    padding: 0;
+    margin: 0px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.c1 {
+    background-image: url(https://media.admagazine.com/photos/61b3d82741b86fd66ff25c8e/master/pass/Estadio%20974.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 70%;
+    cursor: pointer;
+}
+.c2 {
+   background-image: url(https://media.coliseum-online.com/2020/07/Coliseum-Summit-News-Al-Bayt-Stadium-2-July-2020-SC-2022.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position-x: 50%;
+   background-position-y: 50%;
+   image-rendering: optimizeQuality;
+}
+
+.c3 {
+    background-image: url(https://phantom-expansion.unidadeditorial.es/d029a9ca88e93116dd0e71f79634d9c5/crop/0x58/1598x957/resize/1200/f/jpg/assets/multimedia/imagenes/2022/02/11/16445853356127.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 30%;
+    background-position-y: 40%;
+}
+
+.c4 {
+    background-image: url(https://cdn2.mediotiempo.com/uploads/media/2021/10/21/imponente-thumama-listo-copa-mundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 75%;
+    background-position-y: 70%;
+}
+
+.c5 {
+    background-image: url(https://as01.epimg.net/futbol/imagenes/2017/05/16/mundial/1494914131_094442_1494914360_noticia_normal.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 60%;
+}
+
+.c6 {
+    background-image: url(http://www.noticiasradioreflejos.com.ar/2021/wp-content/uploads/2022/08/Qatar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 35%;
+    background-position-y: 60%;
+}
+
+.c7 {
+    background-image: url(https://arqa.com/wp-content/uploads/2019/05/10_zha_al-wakrah-stadium_qatar_%E2%94%AC%C2%AEhuftoncrow-530x556.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: 50%;
+}
+
+.c8 {
+    background-image: url(https://i0.wp.com/bestlifeqatar.com/wp-content/uploads/2022/02/EDUC-STADIUM6.png?fit=1120,630&ssl=1);
+    background-repeat: no-repeat;
+    background-size: center;
+    background-position-x: 50%;
+    background-position-y: 30%;
+}
+
+/*menuButton {
+  position: relative;
+  transition-property: background-color, color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  -webkit-transition-property: background-color, color;
+  -webkit-transition-duration: 1s;
+  -o-transition-property: background-color, color;
+  -o-transition-duration: 1s;
+  text-align: left;
+  background-color: grey;
+  left: 5px;
+  top: 5px;
+  height: 26px;
+  color: white;
+  border-color: black;
+  font-family: sans-serif;
+  font-size: 20px;
+  tex*/
+  
+p{
+    color:white;
+    font-family: 'Vollkorn';
+    text-align: center;
+    width: 300px;
+    font-size: 23px;
+    margin-top: 390px;
+    font-weight: 600;
+}
+
+.header_img {
+    background-image: url(https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    top: 50%;
+    background-position:center;
+    width: 100%;
+    height: 100px;
+}
+html, body{
+    margin:0;
+}
+
+a{
+    text-decoration: none;
+    color: #272727;
+    
+}
+header{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    background: linear-gradient(110deg,#1f3b72,#9ed3ff );
+    align-items:center;
+    padding: 6px;
+    position: fixed;
+    width: 100%;
+    top:0;
+}
+
+.logo {
+    margin-bottom: 20px;
+    display:flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 20px;
+
+}
+
+nav a{
+    font-weight: 500;
+    padding-right: 40px;
+
+}
+
+nav a:hover{
+    color:white;
+
+}
